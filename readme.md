@@ -2,4 +2,7 @@
 
 # JavaScript30
 
-Hello World
+Exercises that i have done:
+
+1 - <a href='#'> </a>
+
