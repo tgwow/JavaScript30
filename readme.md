@@ -4,7 +4,7 @@
 
 Exercises that i have done:
 
-1. <a href='https://github.com/tgwow/JavaScript30/01%20-%20JavaScript%20Drum%20Kit/index-START.html'> Javascript DrumKit</a>
+1. <a href='https://tgwow.github.io/JavaScript30/01%20-%20JavaScript%20Drum%20Kit/index-START.html'> Javascript DrumKit</a>
 2. <a href='https://github.com/tgwow/JavaScript30/tree/master/02%20-%20JS%20and%20CSS%20Clock/index-START.html'> JS and CSS Clock</a>
 3. <a href='https://github.com/tgwow/JavaScript30/tree/master/03%20-%20CSS%20Variables/index-START.html'> CSS Variables</a>
 4. <a href='https://github.com/tgwow/JavaScript30/tree/master/04%20-%20Array%20Cardio%20Day%201/index-START.html'>Array Cardio Day 1</a>
