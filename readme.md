@@ -12,5 +12,7 @@ Exercises that i have done:
 6. <a href='https://tgwow.github.io/JavaScript30/06%20-%20Type%20Ahead/index-START.html'>Type Ahead</a>
 7. <a href='https://tgwow.github.io/JavaScript30/07%20-%20Array%20Cardio%20Day%202/index-START.html'>Array Cardio Day 2</a>
 8. <a href='https://tgwow.github.io/JavaScript30/08%20-%20Fun%20with%20HTML5%20Canvas/index-START.html'>Fun With HTML5 Canvas</a>
-
+9. <a href='https://tgwow.github.io/JavaScript30/09%20-%20Dev%20Tools%20Domination/index-START.html'>09 - Dev Tools Domination</a>
+10. <a href='https://tgwow.github.io/JavaScript30/10%20-%20Hold%20Shift%20and%20Check%20Checkboxes/index-START.html'>10 - Hold Shift and Check Checkboxes</a>
+12. <a href='https://tgwow.github.io/JavaScript30/12%20-%20Key%20Sequence%20Detection/index-START.html'>12 - Key Sequence Detection</a>
 
