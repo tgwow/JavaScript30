@@ -31,7 +31,7 @@
     }
 
     input:checked + p {
-      background: #F9F9F9;
+      background: #F9F9F9aa;
       text-decoration: line-through;
     }
 
@@ -62,7 +62,7 @@
       <p>This is an inbox layout.</p>
     </div>
     <div class="item">
-      <input type="checkbox">
+      <input class="first" type="checkbox">
       <p>Check one item</p>
     </div>
     <div class="item">
@@ -70,7 +70,7 @@
       <p>Hold down your Shift key</p>
     </div>
     <div class="item">
-      <input type="checkbox">
+      <input type="checkbox" class="last">
       <p>Check a lower item</p>
     </div>
     <div class="item">
@@ -96,6 +96,28 @@
   </div>
 
 <script>
+  const checkboxes = document.querySelectorAll('input[type="checkbox"]')
+  let lastClicked, firstClicked, isBetween
+
+  function handleClick(event){
+    
+    if (event.shiftKey && this.checked){
+      lastClicked = this
+      
+      checkboxes.forEach(checkbox => {
+        if (checkbox === firstClicked || checkbox === lastClicked)
+          isBetween = isBetween ? false : true
+
+        if (isBetween)
+          checkbox.checked = true
+      })
+    }
+    firstClicked = this 
+  }
+  checkboxes.forEach(checkbox => checkbox.addEventListener('click', handleClick))
+  
+  
+    // go ahead and do what we pleas
 </script>
 </body>
 </html>

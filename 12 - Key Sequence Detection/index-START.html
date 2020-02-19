@@ -6,7 +6,23 @@
   <script type="text/javascript" src="https://www.cornify.com/js/cornify.js"></script>
 </head>
 <body>
+  <h2 style="display: none;"> HELLO, I'M <span style='color: pink'> </span></h2>
 <script>
+let pressed = []
+let secretKey = 'thevelopertg'
+const h2 = document.querySelector('h2')
+
+window.addEventListener('keyup', (e) => {
+  pressed.push(e.key)
+  pressed.splice(-secretKey.length - 1, pressed.length - secretKey.length)
+  
+  if (pressed.join('') === secretKey) {
+    console.log('YEAH!')
+    h2.children[0].innerHTML = secretKey.toUpperCase()
+    h2.style = 'display: block'
+    cornify_add()
+  }
+})
 </script>
 </body>
 </html>
